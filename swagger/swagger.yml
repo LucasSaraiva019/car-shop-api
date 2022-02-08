@@ -1,0 +1,84 @@
+consumes:
+- application/json
+info:
+  description: Shop Car application
+  title: A Shop Car application
+  version: 1.0.0
+produces:
+- application/json
+schemes:
+- http
+swagger: "2.0"
+basePath: /api/v1
+paths: 
+  /cars:
+    get:
+      tags:
+        - car
+      operationId: find_all_cars
+      responses:
+        200:
+          description: list all cars
+          schema:
+            type: array
+            items: 
+              $ref: "#/definitions/cars"
+        default:
+          description: Generic error responses
+          schema:
+            $ref: "#/definitions/error"
+    post:
+      tags:
+        - car
+      operationId: create_car
+      parameters:
+        - name: body
+          in: body
+          schema:
+            $ref: "#/definitions/cars"
+      responses:
+        201:
+          description: Created
+          schema:
+            $ref: "#/definitions/cars"
+        default:
+          description: Generic erro responses
+          schema:
+            $ref: "#/definitions/error"
+
+definitions:
+  cars:
+    type: object
+    required:
+      - name
+    properties: 
+      id:
+        type: integer
+        format: int64
+        readOnly: true
+      name: 
+        type: string
+      description:
+        type: string
+      salePrice:
+        type: number
+      purchasePrice:
+        type: number
+  error:
+    type: object
+    required:
+      - message
+    properties: 
+      code:
+        type: integer
+        format: int64
+      message:
+        type: string
+
+
+      
+
+      
+
+        
+  
