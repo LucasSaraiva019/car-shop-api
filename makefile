@@ -9,3 +9,5 @@ generate:
 	swagger generate server --name shop-car-api --spec ./swagger/swagger.yml --server-package=gen/restapi  --model-package=gen/models --api-package=operations
 run:
 	go run ./cmd/shop-car-api-server/main.go --port 8000
+generate-client:
+	swagger generate client -f ./swagger/swagger.yml -A product-api --model-package=client/models

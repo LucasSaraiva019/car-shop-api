@@ -1,0 +1,24 @@
+mode: set
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:19.13,22.16 2 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:26.2,34.57 8 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:41.2,41.42 1 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:51.2,53.39 2 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:22.16,24.3 1 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:34.57,36.17 2 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:36.17,38.4 1 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:41.42,43.39 2 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:48.3,48.16 1 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:43.39,44.32 1 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:44.32,46.5 1 0
+github.com/LucasSaraiva019/car-shop-api/cmd/shop-car-api-server/main.go:53.39,55.3 1 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:18.71,20.2 1 1
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:22.55,24.16 2 1
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:27.2,27.49 1 1
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:24.16,26.3 1 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:30.81,32.16 2 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:36.2,37.50 2 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:40.2,40.55 1 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:44.2,44.52 1 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:32.16,34.3 1 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:37.50,39.3 1 0
+github.com/LucasSaraiva019/car-shop-api/gen/controllers/car.go:40.55,42.3 1 0
